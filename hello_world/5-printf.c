@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - Print f
- * return = Always 0
+ * main - Printf
+ *
+ * Return = Always 0
  */
 int main(void)
 {
