@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -fpreprocessed $CFILE
+gcc -c $CFILE
