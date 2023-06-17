@@ -4,8 +4,7 @@
  *
  * Return: Always 0
  */
-
-int main(void)
+int main(void) {
 printf("Size of int: %1u bytes\n", sizeof(intType));
 printf("Size of float: %1u bytes\n", sizeof(floatType));
 printf("Size of double: %1u bytes\n", sizeof(doubleType));
