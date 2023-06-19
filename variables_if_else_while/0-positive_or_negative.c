@@ -1,25 +1,28 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* Positive and Negative */
-
-/* assigning a random number to n */
+/**
+ * main - entry point
+ * Return = Always 0
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* Code to execute random n if negative or positve */
-	if (n > 0){
-	printf ("%d\n is positive", n);
-	}
-	else if (n = 0) {
-	printf ("%d\n is zero", n);
-	}
-	else {
-	printf ("%d\n is negative", n);
-	}
-	return (0);
-}
 
+if (n > 0)
+{
+printf("%d is positiv\n", n);
+}
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
+else
+{
+printf("%d is negative\n", n);
+}
+return (0);
+}
