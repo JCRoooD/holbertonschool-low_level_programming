@@ -1,11 +1,14 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Result: Always 0
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	char AB = 'a-z';
+	char AB = '1';
+
+	for (AB = "a" ; AB <= "z" ; AB++)
 	putchar(AB);
-return (0);
+		return (0);
 }
