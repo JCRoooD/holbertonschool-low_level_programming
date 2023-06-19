@@ -10,5 +10,7 @@ int main(void)
 
 	for (AB = "a" ; AB <= "z" ; AB++)
 	putchar(AB);
+
+putchar(\n);
 		return (0);
 }
