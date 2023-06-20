@@ -8,9 +8,9 @@ int main(void)
 
 	char x;
 
-	for (AB = '0' ; AB <= '9' ; AB++)
+	for (x = '0' ; x <= '9' ; x++)
 		putchar (x);
-	for (AB = 'a' ; AB <= 'f' ; AB++)
+	for (x = 'a' ; x <= 'f' ; x++)
 		putchar (x);
 
 	putchar('\n')
