@@ -15,4 +15,5 @@ int main(void)
 		putchar (AB);
 	}
 	putchar ('\n');
+	return (0);
 }
