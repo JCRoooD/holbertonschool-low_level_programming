@@ -6,7 +6,7 @@
  */
 
 int main(void)
-{
+	{
 	char AB;
 
 	for (AB = 'a' ; AB <= 'z' ; AB++)
@@ -15,4 +15,4 @@ int main(void)
 		putchar (AB);
 	}
 	putchar ('\n');
-}
+	}
