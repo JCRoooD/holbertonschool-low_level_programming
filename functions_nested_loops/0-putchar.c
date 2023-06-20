@@ -1,14 +1,20 @@
 #include "main.h"
 /**
- * main - entry point
+ * main - Printing prototype function
  * Return: Always 0
  */
 int main(void)
-{
 	
+{
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 
-
-
-	return (0);
+putchar('\n');	
+return (0);
 }
-
