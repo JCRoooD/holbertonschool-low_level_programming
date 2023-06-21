@@ -3,24 +3,20 @@
 /**
  * print_sign - the sign of the number
  * Return: functions will print the sign of a number
- *@c: print the sign of a number
-*/
+ *@n: print the sign of a number
+ */
 int print_sign(int n)
 {
 	if (n > '0')
 	{
-		_putchar(+);
+		_putchar('+');
 		return (1);
 	}
-	else if (n == '0')
+	else if (n < '0')
 	{
-		_putchar(0);
-		return (0);
-	}
-	else (n < '0')
-	{
-		_putchar(-)
+		_putchar('-');
 		return (-1);
 	}
+	else
 	_putchar('\n');
 }
