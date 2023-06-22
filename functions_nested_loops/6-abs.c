@@ -9,9 +9,15 @@
 
 int _abs(int n)
 {
-	if (n < '0')
-	{
-		abs(n);
-	}
-	return (0);
+	int i;
+
+	i = (n * (-1));
+
+		if (n < 0)
+		{
+			return (i);
+		}
+		else
+			return (n);
+
 }
