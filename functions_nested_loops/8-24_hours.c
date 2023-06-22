@@ -18,7 +18,7 @@ void jack_bauer(void)
 			putchar(58);
 			putchar(m % 10 + '0');
 			putchar(m / 10 + '0');
+			putchar('\n');
 		}
-		putchar('\n');
 	}
 }
