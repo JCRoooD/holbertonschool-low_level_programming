@@ -28,9 +28,10 @@ void times_table(void)
 			{
 				putchar(32);
 				putchar(44);
-				putchar(r % 10 + '0');
-				putchar(r / 10 + '0');
+				putchar(44);
+				putchar(r + '0');
+				putchar(r + '0');
 			}
-	}
 	putchar('\n');
+	}
 }
