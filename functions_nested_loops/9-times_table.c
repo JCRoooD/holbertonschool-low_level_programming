@@ -16,7 +16,7 @@ void times_table(void)
 				putchar('0');
 				continue;
 			}
-		}
+		
 			if ((c * r) >= 10)
 			{
 			putchar(32);
@@ -31,6 +31,7 @@ void times_table(void)
 				putchar(44);
 				putchar((r * c) + '0');
 			}
-	putchar('\n');
+		}
 	}
+	putchar('\n');
 }
