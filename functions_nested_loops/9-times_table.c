@@ -26,12 +26,12 @@ void times_table(void)
 			}
 			else
 			{
-				putchar(32);
-				putchar(32);
 				putchar(44);
+				putchar(32);
+				putchar(32);
 				putchar((r * c) + '0');
 			}
 		}
+		putchar(('\n'));
 	}
-	putchar('\n');
 }
