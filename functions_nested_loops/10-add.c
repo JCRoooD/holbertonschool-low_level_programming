@@ -11,7 +11,7 @@ int add(int q, int p)
 {
 	int x;
 
-	x = q + p;
+	x = (q + p);
 
 	return (x);
 }
