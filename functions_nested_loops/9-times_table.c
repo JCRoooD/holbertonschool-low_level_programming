@@ -2,8 +2,6 @@
 #include <stdio.h>
 /**
  * times_table - nine times table
- * @c: columns
- * @r: rows
  */
 void times_table(void)
 {
@@ -13,11 +11,26 @@ void times_table(void)
 	{
 		for (c = 0; c <= 9; c++)
 		{
-			putchar('r' * 'c');
-
+			if (c == 0)
+			{
+				putchar('0');
+				continue;
+			}
+		}
+			if ((c * r) >= 10)
+			{
 			putchar(32);
 			putchar(44);
-		}
+			putchar(c % 10 + '0');
+			putchar(c / 10 + '0');
+			}
+			else
+			{
+				putchar(32);
+				putchar(44);
+				putchar(r % 10 + '0');
+				putchar(r / 10 + '0');
+			}
 	}
 	putchar('\n');
 }
