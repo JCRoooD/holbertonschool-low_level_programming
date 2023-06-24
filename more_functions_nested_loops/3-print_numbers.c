@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_numbers - print numbers
+ * print_numbers - list of numbers
  */
 void print_numbers(void)
 {
@@ -9,9 +9,8 @@ void print_numbers(void)
 
 	for (x = 0; x <= 9; x++)
 	{
-		_putchar (x);
+		_putchar(x);
 	}
 	_putchar('$');
-
 }
 
