@@ -9,6 +9,9 @@ void print_numbers(void)
 
 	for (x = 0; x <= 9; x++)
 	{
-		putchar (x);
+		_putchar (x);
 	}
+	_putchar('$');
+
 }
+
