@@ -4,14 +4,14 @@ OBJ = $(SRC:.c=.o)
 NAME = school
 RM = -f *~
 
-all $(OBJ)
+all: $(OBJ)
 	$(CC) $(OBj) -o $(NAME)
-clean
+clean:
 	$(RM) $(NAMe)
-oclean
+oclean:
 	$(RM) $(OBJ)
-fclean
+fclean:
 	$(RM) $(NAME)
 	$(RM) $(OBJ)
-re
+re:
 	$(RM) -f $(NAME) $(OBJ)
