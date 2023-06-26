@@ -7,13 +7,12 @@
 void reset_to_98(int *n)
 {
 	int p;
+	*n = 98;
 
-	n = 98;
-	int *p = &n;
-
-		_putchar(n);
+	n = &p;
+	p = 402;
 	{
-		*p = 402;
+		_putchar(*n);
 	}
 	_putchar('\n');
 }
