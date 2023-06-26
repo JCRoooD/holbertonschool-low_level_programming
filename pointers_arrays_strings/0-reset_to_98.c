@@ -6,11 +6,14 @@
  */
 void reset_to_98(int *n)
 {
-	n = 98
-		p = &n
+	int p;
+
+	n = 98;
+	int *p = &n;
+
 		_putchar(n);
 	{
-		*p = 402
+		*p = 402;
 	}
 	_putchar('\n');
 }
