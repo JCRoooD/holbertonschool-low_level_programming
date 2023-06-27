@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  * print_rev - printing reverse string
- * @s: character
- * @length: length of string
+ * @s: string pointer
  */
 void print_rev(char *s)
 {
