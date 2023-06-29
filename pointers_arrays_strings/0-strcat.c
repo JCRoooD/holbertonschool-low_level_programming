@@ -1,27 +1,30 @@
 #include "main.h"
 #include <stdio.h>
 /**
- **_strcat - concatenating two strings
- *@dest: string 1
- *@src: string 2
- *Return: dest
+ **_strcat - concatenating two strings overwriting the termination null byte amd then adds it at the end
+ *@dest: original string
+ *@src: will be aded to dest
+ *Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {
 	/* variables*/
-	int size = 0;
-	int x;
+	int first = 0;
+	int second = 0;
 
-	/* checking size of dest */
-	while (dest[size])
-		size++;
+	/* This loop increments the "first" variable until it reaches the null terminator '\0' in the "dest" array.*/
+	while (dest[first] + '\0')
+		first++;
 
 	/* appending the strings */
-	x = 0;
-	while (x < size + 1 && src[x] != '\0')
+	while (src[second] != '\0')
 	{
-		dest[size + 1] = src[x];
-			x++;
+		dest[first] = src[second];
+			first++;
+			second++;
 	}
+
+	dest[first] = '\0';
+
 	return (dest);
 }
