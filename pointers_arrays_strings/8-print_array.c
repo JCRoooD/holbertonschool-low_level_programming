@@ -7,20 +7,19 @@
  */
 void print_array(int *a, int n)
 {
-	int b;
+	int b = 0;
 
-	b = 0;
-	while(b < n)
-		b++;
+	while (b < n)
 	{
-		if (b == (n - 1))
-		{
-			printf("%d", a[b]);
-		}
-		else
+		if (b < (n - 1))
 		{
 			printf("%d, ", a[b]);
 		}
+		else
+		{
+			printf("%d", a[b]);
+		}
+		b++;
 	}
 	printf("\n");
 }
