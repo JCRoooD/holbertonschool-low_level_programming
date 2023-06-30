@@ -6,12 +6,12 @@
  *@s2: second string
  *Return: integer
  */
-int _strcmp(char *s1, char *s2)
+iint _strcmp(char *s1, char *s2)
 {
 	/*comparing both strings*/
 	while (*s1 == *s2)
 	{
-		/*checks if the current character being pointed to by s1 is the null terminator ('\0').*/
+		/*checks if the character pointed to by s1 is the null terminator ('\0').*/
 		if (*s1 == '\0')
 		{
 			return (0);
