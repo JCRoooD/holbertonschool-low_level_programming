@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
- *
+ *cap_string - capitaize string
+ *@x: char pointer
+ *Return: char x
  */
 char *cap_string(char *x)
 {
@@ -11,7 +10,7 @@ char *cap_string(char *x)
 	int counter = 0;
 	int capi = 32;
 	char sepa[13] = {',', ';', '.', '!', '?', '"',
-	'(', ')', '{', '}', ' ', '\t', '\n'};
+		'(', ')', '{', '}', ' ', '\t', '\n'};
 	int val = 0;
 
 	while (x[counter] != '\0')
@@ -20,7 +19,7 @@ char *cap_string(char *x)
 		{
 			x[counter] = x[counter] - capi;
 		}
-		
+
 		while (val < 13)
 		{
 			if (x[counter] == sepa[val])
