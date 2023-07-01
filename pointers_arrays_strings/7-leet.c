@@ -1,26 +1,28 @@
 #include "main.h"
 /**
- **leet - encoding to 1337
- *@s: pointer to string
+ *leet - encoding to 1337
+ *@str: pointer to string
  *Return: s
  */
-char *leet(char *s)
+char *leet(char *str)
 {
-	char *p = s;
+	char *ptr = str;
+	char replacements[] = {'4', '3', '0', '7', '1'};
+	char letters[] = {'a', 'e', 'o', 't', 'l'};
+	int i;
 
-	while (*p != '\0')
+	while (*ptr != '\0')
 	{
-		if (*p == 'a' || *p == 'A')
-			*p = '4';
-		else if (*p == 'e' ||  *p == 'E')
-			*p = '3';
-		else if (*p == 'o' ||  *p == 'O')
-			*p = '0';
-		else if (*p == 't' ||  *p == 'T')
-			*p = '7';
-		else if (*p == 'l' ||  *p == 'L')
-			*p = '1';
-		p++;
+		for (i = 0; i < 5; i++)
+		{
+			if (*ptr == letters[i] || *ptr == letters[i] - 'a' + 'A')
+			{
+				*ptr = replacements[i];
+				break;
+			}
+		}
+		ptr++;
 	}
-	return (s);
+
+	return (str);
 }
