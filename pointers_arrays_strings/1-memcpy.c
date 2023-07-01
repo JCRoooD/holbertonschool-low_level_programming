@@ -3,6 +3,7 @@
  **_memcpy - copying memory
  *@dest: destination
  *@src: source
+ *@n: insigned
  *Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
