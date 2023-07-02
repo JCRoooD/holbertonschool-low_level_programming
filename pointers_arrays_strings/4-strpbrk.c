@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- **_strbrk - string for any of a set of bytes.
+ **_strpbrk - string for any of a set of bytes.
  *@s: pointer
  *@accept: char pointer
  *Return: 0
