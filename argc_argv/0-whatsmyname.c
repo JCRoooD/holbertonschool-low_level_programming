@@ -3,25 +3,17 @@
 /**
  *main - main function
  *@argc: argument counter
- *@count: counter variable
+ *@argv: vounter array
+ *Return: 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int count;
+	int i;
 
-	printf ("This program was called with \"%s\".\n",argv[0]);
-
-	if (argc > 1)
+	for (i = 0; i < argc; i++)
 	{
-		for (count = 1; count < argc; count++)
-		{
-			printf("argv[%d] = %s\n", count, argv[count]);
-		}
+		printf("%s", argv[i]);
 	}
-	else
-	{
-		printf("The command had no other arguments.\n");
-	}
-
-	return 0;
+	printf("\n");
+	return (0);
 }
