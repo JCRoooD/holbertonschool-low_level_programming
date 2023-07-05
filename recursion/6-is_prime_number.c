@@ -20,7 +20,7 @@ int is_prime_number(int n)
  *@n: number to be evaluated
  *Return: recursive result
  */
-int looking_for_prime(int find, int n)
+int looking_for_prime(int n, int find)
 {
 	if (n % find == 0)
 	{
