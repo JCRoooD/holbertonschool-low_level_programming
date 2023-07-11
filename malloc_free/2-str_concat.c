@@ -27,16 +27,16 @@ char *str_concat(char *s1, char *s2)
 
 	length2 = strlen(s2);
 
-	str1 = malloc(length1 + length2) + 1;
+	str1 = malloc(length1 + length2 + 1);
 
 	if (str1 == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
-	memcpy(str1, length1, s1);
+	memcpy(str1, s1, length1);
 
-	memcpy(str1 + length1, length2, s2)
+	memcpy(str1 + length1, s2, length2);
 
 		return (str1);
 }
