@@ -1,6 +1,6 @@
 <h4 align="Center">
 <div classHeaderSticker>
-<img src="https://media.giphy.com/media/Sh96pLNd7WSXf9xfGK/giphy.gif"/>
+<img src="https://media.giphy.com/media/Sh96pLNd7WSXf9xfGK/giphy-downsized.gif"/>
 </div>
 <h1 align="Center">More Malloc & Free </h1>
 </h4>
