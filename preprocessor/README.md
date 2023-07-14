@@ -10,7 +10,7 @@ All files were compiled on Ubutun 20.04 LTS using `gcc`, using the options `-Wal
 
 ## Description
 
-:maple leaf: Mandatory Task :maple leaf:
+:maple_leaf: Mandatory Task :maple_leaf:
 
 | File                    | Description                                                                                        |
 |-------------------------|----------------------------------------------------------------------------------------------------|
