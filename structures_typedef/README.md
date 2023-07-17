@@ -10,7 +10,7 @@ All files were compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wal
 
 ## Description
 
-:lamp: Mandatory Task :lamp:
+:cowbell: Mandatory Task :cowbell:
  
  | File          | Description                                                    |
 |---------------|----------------------------------------------------------------|
