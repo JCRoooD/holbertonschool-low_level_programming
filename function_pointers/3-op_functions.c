@@ -1,4 +1,4 @@
-#include "calc.h"
+#include <stdio.h>
 /**
  *op_add - adding integers
  *@a: Num 1
