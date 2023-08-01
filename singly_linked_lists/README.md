@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class=HeaderSticker>
-<img src="https://media.giphy.com/media/xUA7baVBJugSIhbAnC/giphy.gif"/>
+<img src="https://media.giphy.com/media/s06SLiBLOG1dMHTUZr/giphy-downsized.gif"/>
 </div>
 <h1 align="center"> Singly Linked Lists </h1>
 </h4>
