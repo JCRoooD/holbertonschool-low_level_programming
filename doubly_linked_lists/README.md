@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class="HeaderSticker">
-<img src="https://media.giphy.com/media/s06SLiBLOG1dMHTUZr/giphy-downsized.gif"/>
+<img src="https://media.giphy.com/media/OpjriYT4vU1vJFGEjC/giphy-downsized.gif"/>
 </div>
 <h1 align="center"> Doubly Linked Lists </h1>
 </h4>
