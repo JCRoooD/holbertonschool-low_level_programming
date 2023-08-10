@@ -10,7 +10,7 @@ All files were compiled on Ubuntu 20.04 LTS, using `gcc`, using the options `-Wa
 
 ## Description
 
-:horse: Mandatory Task :horse:
+:cat: Mandatory Task :cat:
 
 | File                  | Description                                                    |
 |-----------------------|----------------------------------------------------------------|
